@@ -9,13 +9,13 @@ sudo apt install nodejs
 sudo apt install npm
 
 #clone the repository
-git clone https://github.com/Diyaa0402/AWS-project-D.git
+git clone https://github.com/Diyaa0402/AWS-project-D.git/home/ubuntu/project
 
 #cd in the folder 
-cd AWS-project-D
+cd home/ubuntu/project
 
 #install packages
-npm install
+sudo npm install
 
 #turn up the server
-npx pm2 start index.js
+sudo npx pm2 start index.js
