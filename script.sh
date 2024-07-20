@@ -1,12 +1,12 @@
 #!/bin/bash
 #update the ubuntu machine
-sudo apt update
+sudo apt update -y
 
 #install node js in the machine
-sudo apt install nodejs
+sudo apt install nodejs -y
 
 #install npm machine
-sudo apt install npm
+sudo apt install npm -y
 
 #clone the repository
 git clone https://github.com/Diyaa0402/AWS-project-D.git/home/ubuntu/project
